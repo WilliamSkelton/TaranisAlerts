@@ -10,10 +10,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 
     //mysql credentials
-    $mysql_host = "192.168.1.201";
-    $mysql_username = "morrigan";
-    $mysql_password = "sbL6p5WHvJn3Pj7Y";
-    $mysql_database = "morrigan";
+    $mysql_host = "";
+    $mysql_username = "";
+    $mysql_password = "";
+    $mysql_database = "";
 	$value = filter_var($_POST['value'], FILTER_SANITIZE_STRING);
     $eid = filter_var($_POST['eid'], FILTER_SANITIZE_STRING);
 	$_SESSION['value'] = $value;

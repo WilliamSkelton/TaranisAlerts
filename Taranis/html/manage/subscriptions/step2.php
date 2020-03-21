@@ -9,10 +9,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
     //mysql credentials
-    $servername = "192.168.1.201";
-    $username = "morrigan";
-    $password = "sbL6p5WHvJn3Pj7Y";
-    $dbname = "morrigan";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
     $uid = $_SESSION['uid'];
     $eid = $_SESSION['eid'];
     $value = $_SESSION['value'];

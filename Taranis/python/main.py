@@ -7,14 +7,14 @@ import yagmail
 #---Begin Var Assignment---#
 
 #SQL Auth Info
-host = '192.168.1.201'
-username = 'morrigan'
-passwd = 'sbL6p5WHvJn3Pj7Y'
-db = 'morrigan'
+host = ''
+username = ''
+passwd = ''
+db = ''
 
 #Gmail Auth Info
-gm_usr = 'taranisalerts@gmail.com'
-gm_pw = 'RootyTooty420'
+gm_usr = ''
+gm_pw = ''
 
 #Statistics Info
 totalcycles = 0

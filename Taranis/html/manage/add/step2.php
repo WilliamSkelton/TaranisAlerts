@@ -9,10 +9,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 	//mysql credentials
-	$mysql_host = "192.168.1.201";
-	$mysql_username = "morrigan";
-	$mysql_password = "sbL6p5WHvJn3Pj7Y";
-	$mysql_database = "morrigan";
+	$mysql_host = "";
+	$mysql_username = "";
+	$mysql_password = "";
+	$mysql_database = "";
 
 	$eventname = $_SESSION['eventname'];
 $mysqli = mysqli_connect($mysql_host, $mysql_username, $mysql_password, $mysql_database);

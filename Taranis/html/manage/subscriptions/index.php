@@ -55,10 +55,10 @@ body {
       <dic class="container">
       <div class="row">
 <?php
-  $servername = "192.168.1.201";
-  $username = "morrigan";
-  $password = "sbL6p5WHvJn3Pj7Y";
-  $dbname = "morrigan";
+  $servername = "";
+  $username = "";
+  $password = "";
+  $dbname = "";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);

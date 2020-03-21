@@ -12,10 +12,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is comming from a form
 
 	//mysql credentials
-	$mysql_host = "192.168.1.201";
-	$mysql_username = "morrigan";
-	$mysql_password = "sbL6p5WHvJn3Pj7Y";
-	$mysql_database = "morrigan";
+	$mysql_host = "";
+	$mysql_username = "";
+	$mysql_password = "";
+	$mysql_database = "";
 	
 	$eventname = filter_var($_POST["eventname"], FILTER_SANITIZE_STRING); //set PHP variables like this so we can use them anywhere in code below
 	
